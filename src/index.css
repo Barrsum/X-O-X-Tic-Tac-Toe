@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Outfit:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Syne", sans-serif;
+  --font-body: "Outfit", sans-serif;
+  
+  --color-neo-yellow: #facc15;
+  --color-neo-pink: #f472b6;
+  --color-neo-blue: #60a5fa;
+  --color-neo-black: #111827;
+  --color-neo-white: #f9fafb;
+}
+
+@layer base {
+  body {
+    @apply font-body bg-neo-white text-neo-black antialiased;
+  }
+  
+  h1, h2, h3 {
+    @apply font-display tracking-tight;
+  }
+}
+
+.neo-shadow {
+  box-shadow: 8px 8px 0px 0px rgba(17, 24, 39, 1);
+}
+
+.neo-shadow-sm {
+  box-shadow: 4px 4px 0px 0px rgba(17, 24, 39, 1);
+}
+
+.neo-shadow-hover:hover {
+  box-shadow: 12px 12px 0px 0px rgba(17, 24, 39, 1);
+  transform: translate(-4px, -4px);
+}
+
+.neo-border {
+  @apply border-4 border-neo-black;
+}

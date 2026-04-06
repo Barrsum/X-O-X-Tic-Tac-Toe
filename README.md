@@ -14,9 +14,9 @@ Built with a "Neo-Brutalist" and "High-Contrast" aesthetic, it stands out with i
 
 ## Screenshots
 
-![Project Screenshot](/public/home-01.png) 
-![Project Screenshot](/public/home-02.png) 
-![Project Screenshot](/public/home-03.png) 
+![Project Screenshot](home-01.png) 
+![Project Screenshot](home-02.png) 
+![Project Screenshot](home-03.png) 
 
 
 ## ✨ Features
